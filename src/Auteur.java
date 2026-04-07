@@ -9,6 +9,10 @@ public class Auteur {
         this.annee = annee;
     }
 
+    public void updateAnnee(int annee){
+        this.annee = annee;
+    }
+
     public void afficherDescription(){
         System.out.println("Nom : " + this.nom);
         System.out.println("Prénom : " + this.prenom);
